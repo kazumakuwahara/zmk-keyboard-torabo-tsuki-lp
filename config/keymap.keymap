@@ -40,11 +40,11 @@
 
         layer_2 {
             bindings = <
-&trans            &trans            &trans            &trans  &trans  &trans                        &trans          &trans   &trans          &trans          &trans            &trans
-&trans            &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &trans  &trans  &trans                        &kp NUMBER_4    &trans   &trans          &kp LESS_THAN   &kp GREATER_THAN  &trans
-&trans            &kp N1            &kp N2            &trans  &trans  &trans  &trans  &kp NUMBER_4  &kp UNDERSCORE  &trans   &trans          &kp UP_ARROW    &kp COLON         &trans
-&kp LS(LEFT_GUI)  &kp N6            &kp N7            &trans  &trans  &trans  &trans  &trans        &trans          &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT         &trans
-&trans            &trans            &trans            &trans  &trans  &trans  &trans  &trans        &kp TAB         &kp DEL  &trans          &trans          &trans            &trans
+&trans            &trans            &trans            &trans  &trans  &trans                                  &trans          &trans   &trans          &trans          &trans            &trans
+&trans            &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &trans  &trans  &trans                                  &kp NUMBER_4    &trans   &trans          &kp LESS_THAN   &kp GREATER_THAN  &trans
+&trans            &kp N1            &kp N2            &trans  &trans  &trans            &trans  &kp NUMBER_4  &kp UNDERSCORE  &trans   &trans          &kp UP_ARROW    &kp COLON         &trans
+&kp LS(LEFT_GUI)  &kp N6            &kp N7            &trans  &trans  &kp LC(LEFT_ALT)  &trans  &trans        &trans          &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT         &trans
+&trans            &trans            &trans            &trans  &trans  &trans            &trans  &trans        &kp TAB         &kp DEL  &trans          &trans          &trans            &trans
             >;
         };
 
